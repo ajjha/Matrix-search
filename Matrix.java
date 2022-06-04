@@ -7,12 +7,14 @@ public class Matrix {
         int row = sc.nextInt();
         int column = sc.nextInt();
         int[][] mat = new int[row][column];
+        //taking input of matrix
         for(int i=0;i<row;i++){
             for(int j=0;j<column;j++){
                 mat[i][j] = sc.nextInt();
             }
 
         }
+        //print the matrix
         for(int i=0;i<row;i++){
             for(int j=0;j<column;j++){
                 System.out.print(mat[i][j]+" ");
